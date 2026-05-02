@@ -25,3 +25,22 @@
 | Newsom MM | +5% (volatility) | 30 months |
 | Xi tail | +5% | 19 months |
 | AOC vol | +8% (range) | 30 months |
+
+## New Opportunities Scanned — 2026-05-02 23:15 UTC
+
+| # | Market | Strategy | Side | Entry Price | Size (USDC) | Rationale | Conviction | Risk Budget |
+|---|--------|----------|------|-------------|-------------|-----------|------------|-------------|
+| 6 | China invades Taiwan by end 2026 | Tail-risk | YES | 0.07 | 100 | Extreme tail risk. 7% prices WW3 at lottery odds. Current US-China tensions + TSMC dependency make this non-trivial. Asymmetric payoff if escalation occurs. | Medium | 1.0% |
+| 7 | Russia-Ukraine ceasefire by end 2026 | Mean reversion MM | YES | 0.26 | 150 | Standalone ceasefire (not GTA-tied). 26% with Trump pressuring both sides. Buy <20%, sell >35%. Good liquidity for MM. | Medium | 1.5% |
+| 8 | Netanyahu out by end 2026 | Divergence | YES | 0.44 | 100 | ICC warrants, domestic protests, coalition fragility. 44% prices survival — but leaders under this pressure rarely last. Historical base rate: ~60% exit under similar pressure. | Medium | 1.0% |
+| 9 | Dems control House 2026 | Mean reversion | NO | 0.16 | 100 | 84% YES defies midterm history — White House party loses House in 90% of midterms since WWII. Long-dated markets overprice certainty. Short above 80%. | High | 1.0% |
+| 10 | Zelenskyy out by end 2026 | Tail-risk | YES | 0.16 | 50 | War fatigue + potential negotiated settlement could trigger political change. 16% undervalues structural pressure. Small position, asymmetric. | Low | 0.5% |
+
+**New Deployed:** 500 USDC
+**Total Portfolio at Risk:** 1,100 USDC (11.0%) ⚠️ EXCEEDS 10% GLOBAL CAP
+**Action Required:** Trim position #3 (Newsom) from 200 to 100 USDC to bring total to 10.0%
+
+### Monitoring Alerts Configured
+- **Hourly scan:** Every hour at :00 UTC
+- **Daily backtest:** Every day at 00:00 UTC
+- **Triggers:** Price move >5%, new market >1M vol, resolution <48h, correlated cluster >3%
