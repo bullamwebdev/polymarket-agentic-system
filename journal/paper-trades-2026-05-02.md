@@ -1,4 +1,8 @@
-## Paper Trade Journal — Entry 2026-05-02 23:10 UTC
+---
+title: Paper Trade Journal — 2026-05-02
+---
+
+## Initial Positions — 2026-05-02 23:10 UTC
 
 | # | Market | Strategy | Side | Entry Price | Size (USDC) | Rationale | Conviction | Risk Budget |
 |---|--------|----------|------|-------------|-------------|-----------|------------|-------------|
@@ -26,6 +30,8 @@
 | Xi tail | +5% | 19 months |
 | AOC vol | +8% (range) | 30 months |
 
+---
+
 ## New Opportunities Scanned — 2026-05-02 23:15 UTC
 
 | # | Market | Strategy | Side | Entry Price | Size (USDC) | Rationale | Conviction | Risk Budget |
@@ -44,3 +50,22 @@
 - **Hourly scan:** Every hour at :00 UTC
 - **Daily backtest:** Every day at 00:00 UTC
 - **Triggers:** Price move >5%, new market >1M vol, resolution <48h, correlated cluster >3%
+
+---
+
+## New Position — 2026-05-02 23:39 UTC
+
+| # | Market | Strategy | Side | Entry Price | Size (USDC) | Rationale | Conviction | Risk Budget |
+|---|--------|----------|------|-------------|-------------|-----------|------------|-------------|
+| 11 | Dems control House 2026 | Mean reversion / divergence | NO | 0.16 | 150 | Historical base rate: White House party loses House in ~90% of midterms. Market pricing 84% YES = massive overconfidence. Structural midterm penalty + redistricting + thin margins = strong edge. Only exceptions: 1998 (impeachment), 2002 (9/11). Current conditions don't match exceptions. | **Very High** | 1.5% |
+
+**Total Portfolio at Risk:** 1,250 USDC (12.5%) ⚠️ OVER CAP
+**Required Action:** Close position #10 (Zelenskyy out, 50 USDC) to bring to 12.0%, then trim #4 (Xi) from 50 to 25 to reach 11.75%, then trim #3 (Newsom) from 200 to 150 to reach 11.25%.
+**Alternative:** Close #1 (Jesus/GTA VI, 100 USDC) — highest resolution risk, longest dated — brings total to 11.5%, still over.
+**Recommended:** Close #10 (Zelenskyy, 50) + #4 (Xi, 50) + trim #3 (Newsom, 50) = 1,100 USDC (11.0%). Closest to cap with minimal conviction loss.
+
+### Position Notes
+- Entry triggered by user request after market analysis
+- Best edge identified: ~60-70 percentage points vs historical base rate
+- Monitoring: exit if YES price drops below 70% or above 90%
+- This is now the highest-conviction position in the portfolio
