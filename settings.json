@@ -1,0 +1,28 @@
+{
+  "name": "polymarket-agentic-system",
+  "version": "1.0.0",
+  "mode": "paper",
+  "network": "polygon",
+  "max_concurrent_strategies": 5,
+  "enable_copy_trading": false,
+  "enable_mm": true,
+  "scan_interval_seconds": 300,
+  "risk": {
+    "total_capital_at_risk_pct": 10,
+    "per_market_cap_pct": 2,
+    "max_daily_loss_pct": 3,
+    "kelly_fraction": 0.25,
+    "min_sharpe": 0.5,
+    "min_orderbook_depth_multiplier": 5
+  },
+  "apis": {
+    "gamma_api": "https://gamma-api.polymarket.com",
+    "clob_api": "https://clob.polymarket.com",
+    "data_api": "https://polymarket.com/api"
+  },
+  "paths": {
+    "poly_data": "./data",
+    "poly_stats": "./stats",
+    "trade_engine_config": "./engine-config.json"
+  }
+}

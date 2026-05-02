@@ -1,0 +1,12 @@
+.env.local
+.env
+*.key
+*.pem
+node_modules/
+__pycache__/
+*.pyc
+data/
+stats/
+logs/
+.trading/journal/
+.trading/state/
