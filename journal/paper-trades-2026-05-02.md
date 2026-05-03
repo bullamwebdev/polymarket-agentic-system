@@ -90,3 +90,17 @@ title: Paper Trade Journal — 2026-05-02
 - Tail-risk hedge: Underperforming (-0.13 USDC, 0% win rate). Review parameters or pause.
 
 *Next backtest: 2026-05-04 00:00 UTC*
+
+
+## Auto-Execution — 2026-05-03 15:19 UTC
+
+**Engine:** CompositeScoringEngine v1.0 | **Trigger:** Score <= -3.0 + risk over limit
+
+Closed 4 positions:
+- AOC YES 100 USDC (score: -3.7)
+- Xi YES 50 USDC (score: -3.8)
+- Ceasefire YES 150 USDC (score: -4.5)
+- China/Taiwan YES 100 USDC (score: -6.3)
+
+Capital freed: 400 USDC | PnL: -1.30 USDC
+New at risk: 850 USDC (8.5%) — UNDER LIMIT

@@ -52,10 +52,10 @@ WEIGHTS = {
         "red_dot_4h":        2.0,  # Market Cypher 4H red (stronger)
     },
     "perplexity": {
-        "strong_bullish":    2.0,  # Clear buy signal with high conviction
-        "moderate_bullish":  1.0,  # Mild buy signal
-        "strong_bearish":    2.0,  # Clear sell signal with high conviction
-        "moderate_bearish":  1.0,  # Mild sell signal
+        "strong_bullish":    4.0,  # Clear buy signal with high conviction
+        "moderate_bullish":  2.5,  # Mild buy signal
+        "strong_bearish":    4.0,  # Clear sell signal with high conviction
+        "moderate_bearish":  2.5,  # Mild sell signal
         "neutral":           0.0,  # No opinion
     },
     "microstructure": {
@@ -90,10 +90,10 @@ RISK_LIMITS = {
 # ============ AUTO-EXECUTION THRESHOLDS ============
 
 EXECUTION_THRESHOLDS = {
-    "strong_execute":  7.0,   # Score >= 7 → auto-execute
-    "moderate_execute": 5.0,  # Score >= 5 → recommend to user
-    "weak_signal":      3.0,  # Score >= 3 → monitor only
-    "no_action":        0.0,  # Score < 3 → no action
+    "strong_execute":  6.0,   # Score >= 6 → auto-execute (was 7)
+    "moderate_execute": 3.5,  # Score >= 3.5 → recommend to user (was 5)
+    "weak_signal":      1.5,  # Score >= 1.5 → monitor only (was 3)
+    "no_action":        0.0,  # Score < 1.5 → no action
 }
 
 # ============ CORRELATION CLUSTERS ============
@@ -299,35 +299,34 @@ class CompositeScore:
         """Score from Perplexity AI research.
         
         Scoring logic:
-        - bearish/strong + contradicts = -2.0 (research says SELL our position)
-        - bearish/moderate + contradicts = -1.0
-        - bullish/strong + aligns = +2.0 (research says HOLD/ADD our position)
-        - bullish/moderate + aligns = +1.0
-        - neutral/any = 0.0
-        - If research contradicts but we're already NO and it's bearish → that ALIGNS
+        - Perplexity sentiment vs our position determines direction
+        - bearish + our position is YES = -2.0 (research says SELL our YES)
+        - bullish + our position is NO = -2.0 (research says SELL our NO)
+        - bearish + our position is NO = +2.0 (research says HOLD our NO / add to NO)
+        - bullish + our position is YES = +2.0 (research says HOLD our YES / add to YES)
+        - neutral = 0.0
         """
         pp_score = 0.0
         
         if perplexity_signal:
-            key = f"{perplexity_signal.sentiment}_{perplexity_signal.conviction}"
-            raw_score = WEIGHTS["perplexity"].get(key, 0.0)
-            
-            # Determine if Perplexity signal aligns with or contradicts CURRENT POSITION
             current_side = self.position.get("side", "YES")
             
-            # bearish research = price should go DOWN
-            # If we're YES → contradicts (negative score)
-            # If we're NO → aligns (positive score)
-            if perplexity_signal.sentiment == "bearish":
-                if current_side == "YES":
-                    pp_score = -abs(raw_score)  # Research says sell our YES
-                else:  # NO position
-                    pp_score = abs(raw_score)   # Research supports our NO
-            elif perplexity_signal.sentiment == "bullish":
+            # Base score from sentiment + conviction
+            # WEIGHTS keys are: "strong_bullish", "moderate_bullish", "strong_bearish", "moderate_bearish"
+            key = f"{perplexity_signal.conviction}_{perplexity_signal.sentiment}"
+            raw_score = WEIGHTS["perplexity"].get(key, 0.0)
+            
+            # Determine alignment
+            if perplexity_signal.sentiment == "bullish":
                 if current_side == "YES":
                     pp_score = abs(raw_score)   # Research supports our YES
                 else:  # NO position
-                    pp_score = -abs(raw_score)  # Research says sell our NO
+                    pp_score = -abs(raw_score)  # Research contradicts our NO
+            elif perplexity_signal.sentiment == "bearish":
+                if current_side == "NO":
+                    pp_score = abs(raw_score)   # Research supports our NO
+                else:  # YES position
+                    pp_score = -abs(raw_score)  # Research contradicts our YES
             else:
                 pp_score = 0.0
         
@@ -335,7 +334,6 @@ class CompositeScore:
         self.details["perplexity"] = {
             "sentiment": perplexity_signal.sentiment if perplexity_signal else "none",
             "conviction": perplexity_signal.conviction if perplexity_signal else "none",
-            "contradicts": perplexity_signal.contradicts_current if perplexity_signal else False,
             "aligned_with_position": pp_score > 0,
         }
         return pp_score
@@ -446,9 +444,10 @@ class CompositeScore:
         self.total_score = sum(self.scores.values())
         
         # Determine direction from total score
-        if self.total_score >= 3.0:
+        # Lowered thresholds to make signals more responsive
+        if self.total_score >= 1.5:
             self.direction = "LONG"
-        elif self.total_score <= -3.0:
+        elif self.total_score <= -1.5:
             self.direction = "SHORT"
         else:
             self.direction = "NEUTRAL"

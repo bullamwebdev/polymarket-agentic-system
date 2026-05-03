@@ -885,3 +885,168 @@
 | 11 | Dems control House 2026 | NO | 0.1600 | 0.8450 | 0.1550 | -3.1% |
 
 ---
+
+
+## Hourly Scan — 2026-05-03 14:00 UTC
+
+⚠️ **4 alert(s) triggered**
+
+🔴 **POSITION_MOVE** (high)
+#4 Xi Jinping out before 2027 moved 5.6% against. Entry YES 0.0800, current 0.0755 (PnL: -5.6%)
+
+  - Entry: YES @ 0.0800
+  - Current YES: 0.0755
+  - PnL: -5.6%
+  - **Action:** Review stop-loss / exit trigger
+
+🔴 **POSITION_MOVE** (high)
+#5 AOC 2028 Dem Nomination moved 8.3% against. Entry YES 0.0900, current 0.0825 (PnL: -8.3%)
+
+  - Entry: YES @ 0.0900
+  - Current YES: 0.0825
+  - PnL: -8.3%
+  - **Action:** Review stop-loss / exit trigger
+
+🔴 **POSITION_MOVE** (high)
+#6 China invades Taiwan by end 2026 moved 17.9% against. Entry YES 0.0700, current 0.0575 (PnL: -17.9%)
+
+  - Entry: YES @ 0.0700
+  - Current YES: 0.0575
+  - PnL: -17.9%
+  - **Action:** Review stop-loss / exit trigger
+
+🔴 **POSITION_MOVE** (high)
+#10 Zelenskyy out by end 2026 moved 15.6% against. Entry YES 0.1600, current 0.1350 (PnL: -15.6%)
+
+  - Entry: YES @ 0.1600
+  - Current YES: 0.1350
+  - PnL: -15.6%
+  - **Action:** Review stop-loss / exit trigger
+
+### Tracked Positions Price Table
+
+| # | Market | Side | Entry | Current YES | Current NO | Move from Entry |
+|---|--------|------|-------|-------------|------------|------------------|
+| 1 | Jesus Christ return before GTA VI | YES | 0.4800 | 0.4850 | 0.5150 | +1.0% |
+| 2 | J.D. Vance 2028 GOP Nomination | NO | 0.6100 | 0.3915 | 0.6085 | -0.2% |
+| 3 | Gavin Newsom 2028 Dem Nomination | YES | 0.2600 | 0.2635 | 0.7365 | +1.3% |
+| 4 | Xi Jinping out before 2027 | YES | 0.0800 | 0.0755 | 0.9245 | -5.6% |
+| 5 | AOC 2028 Dem Nomination | YES | 0.0900 | 0.0825 | 0.9175 | -8.3% |
+| 6 | China invades Taiwan by end 2026 | YES | 0.0700 | 0.0575 | 0.9425 | -17.9% |
+| 7 | Russia-Ukraine ceasefire by end 2026 | YES | 0.2600 | 0.2850 | 0.7150 | +9.6% |
+| 8 | Netanyahu out by end 2026 | YES | 0.4400 | 0.4900 | 0.5100 | +11.4% |
+| 9 | Dems control House 2026 | NO | 0.1600 | 0.8450 | 0.1550 | -3.1% |
+| 10 | Zelenskyy out by end 2026 | YES | 0.1600 | 0.1350 | 0.8650 | -15.6% |
+| 11 | Dems control House 2026 | NO | 0.1600 | 0.8450 | 0.1550 | -3.1% |
+
+---
+
+
+## Hourly Scan — 2026-05-03 15:01 UTC
+
+⚠️ **4 alert(s) triggered**
+
+🔴 **POSITION_MOVE** (high)
+#4 Xi Jinping out before 2027 moved 5.6% against. Entry YES 0.0800, current 0.0755 (PnL: -5.6%)
+
+  - Entry: YES @ 0.0800
+  - Current YES: 0.0755
+  - PnL: -5.6%
+  - **Action:** Review stop-loss / exit trigger
+
+🔴 **POSITION_MOVE** (high)
+#5 AOC 2028 Dem Nomination moved 8.3% against. Entry YES 0.0900, current 0.0825 (PnL: -8.3%)
+
+  - Entry: YES @ 0.0900
+  - Current YES: 0.0825
+  - PnL: -8.3%
+  - **Action:** Review stop-loss / exit trigger
+
+🔴 **POSITION_MOVE** (high)
+#6 China invades Taiwan by end 2026 moved 17.9% against. Entry YES 0.0700, current 0.0575 (PnL: -17.9%)
+
+  - Entry: YES @ 0.0700
+  - Current YES: 0.0575
+  - PnL: -17.9%
+  - **Action:** Review stop-loss / exit trigger
+
+🔴 **POSITION_MOVE** (high)
+#10 Zelenskyy out by end 2026 moved 15.6% against. Entry YES 0.1600, current 0.1350 (PnL: -15.6%)
+
+  - Entry: YES @ 0.1600
+  - Current YES: 0.1350
+  - PnL: -15.6%
+  - **Action:** Review stop-loss / exit trigger
+
+### Tracked Positions Price Table
+
+| # | Market | Side | Entry | Current YES | Current NO | Move from Entry |
+|---|--------|------|-------|-------------|------------|------------------|
+| 1 | Jesus Christ return before GTA VI | YES | 0.4800 | 0.4850 | 0.5150 | +1.0% |
+| 2 | J.D. Vance 2028 GOP Nomination | NO | 0.6100 | 0.3915 | 0.6085 | -0.2% |
+| 3 | Gavin Newsom 2028 Dem Nomination | YES | 0.2600 | 0.2635 | 0.7365 | +1.3% |
+| 4 | Xi Jinping out before 2027 | YES | 0.0800 | 0.0755 | 0.9245 | -5.6% |
+| 5 | AOC 2028 Dem Nomination | YES | 0.0900 | 0.0825 | 0.9175 | -8.3% |
+| 6 | China invades Taiwan by end 2026 | YES | 0.0700 | 0.0575 | 0.9425 | -17.9% |
+| 7 | Russia-Ukraine ceasefire by end 2026 | YES | 0.2600 | 0.2850 | 0.7150 | +9.6% |
+| 8 | Netanyahu out by end 2026 | YES | 0.4400 | 0.4900 | 0.5100 | +11.4% |
+| 9 | Dems control House 2026 | NO | 0.1600 | 0.8450 | 0.1550 | -3.1% |
+| 10 | Zelenskyy out by end 2026 | YES | 0.1600 | 0.1350 | 0.8650 | -15.6% |
+| 11 | Dems control House 2026 | NO | 0.1600 | 0.8450 | 0.1550 | -3.1% |
+
+---
+
+
+## Hourly Scan — 2026-05-03 15:01 UTC
+
+⚠️ **4 alert(s) triggered**
+
+🔴 **POSITION_MOVE** (high)
+#4 Xi Jinping out before 2027 moved 5.6% against. Entry YES 0.0800, current 0.0755 (PnL: -5.6%)
+
+  - Entry: YES @ 0.0800
+  - Current YES: 0.0755
+  - PnL: -5.6%
+  - **Action:** Review stop-loss / exit trigger
+
+🔴 **POSITION_MOVE** (high)
+#5 AOC 2028 Dem Nomination moved 8.3% against. Entry YES 0.0900, current 0.0825 (PnL: -8.3%)
+
+  - Entry: YES @ 0.0900
+  - Current YES: 0.0825
+  - PnL: -8.3%
+  - **Action:** Review stop-loss / exit trigger
+
+🔴 **POSITION_MOVE** (high)
+#6 China invades Taiwan by end 2026 moved 17.9% against. Entry YES 0.0700, current 0.0575 (PnL: -17.9%)
+
+  - Entry: YES @ 0.0700
+  - Current YES: 0.0575
+  - PnL: -17.9%
+  - **Action:** Review stop-loss / exit trigger
+
+🔴 **POSITION_MOVE** (high)
+#10 Zelenskyy out by end 2026 moved 15.6% against. Entry YES 0.1600, current 0.1350 (PnL: -15.6%)
+
+  - Entry: YES @ 0.1600
+  - Current YES: 0.1350
+  - PnL: -15.6%
+  - **Action:** Review stop-loss / exit trigger
+
+### Tracked Positions Price Table
+
+| # | Market | Side | Entry | Current YES | Current NO | Move from Entry |
+|---|--------|------|-------|-------------|------------|------------------|
+| 1 | Jesus Christ return before GTA VI | YES | 0.4800 | 0.4850 | 0.5150 | +1.0% |
+| 2 | J.D. Vance 2028 GOP Nomination | NO | 0.6100 | 0.3915 | 0.6085 | -0.2% |
+| 3 | Gavin Newsom 2028 Dem Nomination | YES | 0.2600 | 0.2635 | 0.7365 | +1.3% |
+| 4 | Xi Jinping out before 2027 | YES | 0.0800 | 0.0755 | 0.9245 | -5.6% |
+| 5 | AOC 2028 Dem Nomination | YES | 0.0900 | 0.0825 | 0.9175 | -8.3% |
+| 6 | China invades Taiwan by end 2026 | YES | 0.0700 | 0.0575 | 0.9425 | -17.9% |
+| 7 | Russia-Ukraine ceasefire by end 2026 | YES | 0.2600 | 0.2850 | 0.7150 | +9.6% |
+| 8 | Netanyahu out by end 2026 | YES | 0.4400 | 0.4900 | 0.5100 | +11.4% |
+| 9 | Dems control House 2026 | NO | 0.1600 | 0.8450 | 0.1550 | -3.1% |
+| 10 | Zelenskyy out by end 2026 | YES | 0.1600 | 0.1350 | 0.8650 | -15.6% |
+| 11 | Dems control House 2026 | NO | 0.1600 | 0.8450 | 0.1550 | -3.1% |
+
+---

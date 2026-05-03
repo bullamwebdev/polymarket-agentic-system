@@ -111,3 +111,51 @@ Perplexity analysis contradicts several current positions. Key thesis: portfolio
 
 *Research source: Perplexity AI — https://www.perplexity.ai/search/research-agent-prompt-polymark-_u06gRytSYubVFrTnF.UYQ*
 *Fetched: 2026-05-03 13:17 UTC*
+
+## Perplexity Research — Jesus/GTA VI — 2026-05-03 15:00 UTC
+
+**Verdict:** UNDERPRICED for YES | **Fair value:** ~0.50 | **Current:** 0.485
+
+**Key finding:** GTA VI officially delayed to November 19, 2026 — well after the July 31, 2026 market cutoff date. The contract has a "both fail → 50/50" fallback clause, meaning YES mechanically converges to ~0.50 if Jesus doesn't return and GTA VI doesn't release by July 31.
+
+**Catalysts:**
+- July 31, 2026: 50/50 fallback triggers if neither event occurs
+- Any Rockstar statement could shift sentiment
+- No 48h alert
+
+**Composite score:** +0.2/10 | Direction: NEUTRAL | Action: ⏸️ HOLD — No actionable signal
+
+**Recommendation:** HOLD YES — research supports position, slight edge at current prices.
+
+
+## Perplexity Research — Vance GOP Nom — 2026-05-03 15:00 UTC
+
+**Verdict:** UNDERPRICED for YES | **Fair YES:** 50-60% | **Our NO:** 0.61
+
+**Key finding:** Metaculus community forecasts Vance at ~56% GOP nominee probability. Our NO at 0.61 implies YES at 39% — significantly below consensus.
+
+**Catalysts:**
+- 2026-2027: GOP "invisible primary" — endorsements, donor consolidation
+- 2026 Q4-2027 Q2: Markets react to scandals, health issues, intra-MAGA splits
+- Early 2028: Actual primary results
+
+**Composite score:** +1.8/10 | Direction: NEUTRAL | Action: ⏸️ HOLD — No actionable signal
+
+**Recommendation:** CLOSE NO position. Research contradicts — NO is negative EV at current prices.
+
+
+## Perplexity Research — Vance GOP Nom — 2026-05-03 15:00 UTC
+
+**Verdict:** UNDERPRICED for YES | **Fair YES:** 50-60% | **Our NO:** 0.61
+
+**Key finding:** Metaculus community forecasts Vance at ~56% GOP nominee probability. Our NO at 0.61 implies YES at 39% — significantly below consensus. Research says NO is negative EV.
+
+**Catalysts:**
+- 2026-2027: GOP "invisible primary" — endorsements, donor consolidation
+- 2026 Q4-2027 Q2: Markets react to scandals, health issues, intra-MAGA splits
+- Early 2028: Actual primary results
+
+**Composite score:** +0.8/10 | Direction: NEUTRAL | Action: ⏸️ HOLD — No actionable signal
+
+**Recommendation:** CLOSE NO position. Research contradicts — NO is negative EV at current prices. Expected loss if held to resolution: ~25 USDC.
+
