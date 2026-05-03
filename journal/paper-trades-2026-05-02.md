@@ -69,3 +69,24 @@ title: Paper Trade Journal — 2026-05-02
 - Best edge identified: ~60-70 percentage points vs historical base rate
 - Monitoring: exit if YES price drops below 70% or above 90%
 - This is now the highest-conviction position in the portfolio
+
+
+---
+
+## Daily Backtest — 2026-05-03 00:00 UTC
+
+**Total PnL:** +7.58 USDC (+0.08%)
+**Hit Rate:** 36% | **Sharpe:** -0.15
+**Winners:** 4 | **Losers:** 7
+
+**Best:** #7 Russia-Ukraine ceasefire by end 2026... (+5.25 USDC)
+**Worst:** #6 China invades Taiwan by end 2026... (-1.15 USDC)
+
+**Recommendations:**
+- Portfolio flat (0.08%). Hold current risk parameters.
+- Hit rate 36% below 40% threshold. Review signal quality.
+- Short / divergence: Underperforming (-0.15 USDC, 0% win rate). Review parameters or pause.
+- Mean reversion MM: Profitable (+5.95 USDC, 100% win rate). Increase allocation by 10%.
+- Tail-risk hedge: Underperforming (-0.13 USDC, 0% win rate). Review parameters or pause.
+
+*Next backtest: 2026-05-04 00:00 UTC*
